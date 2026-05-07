@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    INVEST AFRICA
+  </h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Africa Invest</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#eef2f7;
+}
+
+header{
+    background:#0b1f3a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    background:#132b50;
+    padding:15px;
+    position:sticky;
+    top:0;
+}
+
+nav button{
+    background:#1d4e89;
+    border:none;
+    color:white;
+    padding:12px 18px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.container{
+    width:92%;
+    max-width:1000px;
+    margin:auto;
+    padding:15px;
+}
+
+.card{
+    background:white;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.1);
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.content{
+    padding:15px;
+}
+
+.title{
+    font-size:20px;
+    font-weight:bold;
+    color:#0b1f3a;
+}
+
+.desc{
+    margin-top:6px;
+    color:#333;
+}
+
+.gain{
+    margin-top:8px;
+    font-weight:bold;
+    color:#1d4e89;
+}
+
+.btn{
+    display:block;
+    text-align:center;
+    margin-top:12px;
+    padding:12px;
+    background:#1d4e89;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn-premium{
+    display:block;
+    text-align:center;
+    margin-top:12px;
+    padding:14px;
+    background:linear-gradient(45deg,#ff9800,#ff5722);
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.page{display:none;}
+.active{display:block;}
+
+footer{
+    background:#0b1f3a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AFRICA INVEST</h1>
+    <p>Investissement • Crypto • Sondages</p>
+</header>
+
+<nav>
+    <button onclick="showPage('home')">🏠 Accueil</button>
+    <button onclick="showPage('invest')">💰 Invest</button>
+    <button onclick="showPage('crypto')">🪙 Crypto</button>
+    <button onclick="showPage('survey')">📊 Sondages</button>
+</nav>
+
+<div class="container">
+
+<!-- HOME -->
+<div id="home" class="page active">
+    <div class="card">
+        <div class="content">
+            <div class="title">Bienvenue 👋</div>
+            <div class="desc">
+                Explore les meilleures plateformes pour investir et gagner de l’argent en ligne.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- INVEST -->
+<div id="invest" class="page">
+
+    <!-- BRVMAX -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1642104704074-907c0698cbd9?w=1200">
+        <div class="content">
+            <div class="title">🔥 BRVMax (RECOMMANDÉ)</div>
+            <div class="desc">Investissement en actions africaines BRVM.</div>
+            <div class="gain">💰 10 000 à 150 000 FCFA / mois</div>
+            <a class="btn-premium" href="https://brvmax.com/inscription?ref=BRVMAX-USER1681" target="_blank">👉 S’INSCRIRE</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200">
+        <div class="content">
+            <div class="title">Africabourse</div>
+            <div class="desc">Marchés financiers africains.</div>
+            <div class="gain">💰 Variable</div>
+            <a class="btn" href="https://www.africabourse.com" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200">
+        <div class="content">
+            <div class="title">Kuda Bank</div>
+            <div class="desc">Banque digitale et épargne.</div>
+            <div class="gain">💰 5 000 à 50 000 FCFA / mois</div>
+            <a class="btn" href="https://kuda.com" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200">
+        <div class="content">
+            <div class="title">Risevest</div>
+            <div class="desc">Investissement international.</div>
+            <div class="gain">💰 20 000 à 200 000 FCFA / mois</div>
+            <a class="btn" href="https://risevest.com" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+    <!-- SOLPRO -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200">
+        <div class="content">
+            <div class="title">🔥 SOLPRO (TOP)</div>
+            <div class="desc">Revenus en ligne et opportunités digitales.</div>
+            <div class="gain">💰 5 000 à 300 000 FCFA / mois</div>
+            <a class="btn-premium" href="https://fc.wedailyearn.com/sign/up?invite_code=6337612" target="_blank">👉 REJOINDRE</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- CRYPTO -->
+<div id="crypto" class="page">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200">
+        <div class="content">
+            <div class="title">Ejara</div>
+            <div class="desc">Crypto avec Mobile Money.</div>
+            <div class="gain">💰 10 000 à 300 000 FCFA / mois</div>
+            <a class="btn" href="https://ejara.io" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200">
+        <div class="content">
+            <div class="title">Binance</div>
+            <div class="desc">Trading crypto mondial.</div>
+            <div class="gain">💰 Variable</div>
+            <a class="btn" href="https://www.binance.com" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=1200">
+        <div class="content">
+            <div class="title">OKX</div>
+            <div class="desc">Trading + staking crypto.</div>
+            <div class="gain">💰 10 000 à 500 000 FCFA / mois</div>
+            <a class="btn" href="https://www.okx.com" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1620121684840-edffcfc4b878?w=1200">
+        <div class="content">
+            <div class="title">KuCoin</div>
+            <div class="desc">Exchange crypto global.</div>
+            <div class="gain">💰 Variable</div>
+            <a class="btn" href="https://www.kucoin.com" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1621944190310-8c4c3f9d9c4d?w=1200">
+        <div class="content">
+            <div class="title">Coinbase</div>
+            <div class="desc">Crypto simple et sécurisé.</div>
+            <div class="gain">💰 Variable</div>
+            <a class="btn" href="https://www.coinbase.com" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- SONDAGES -->
+<div id="survey" class="page">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200">
+        <div class="content">
+            <div class="title">Swagbucks</div>
+            <div class="desc">Sondages rémunérés.</div>
+            <div class="gain">💰 5 000 à 50 000 FCFA / mois</div>
+            <a class="btn" href="https://www.swagbucks.com" target="_blank">👉 GAGNER</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200">
+        <div class="content">
+            <div class="title">Toluna</div>
+            <div class="desc">Tests produits + sondages.</div>
+            <div class="gain">💰 5 000 à 40 000 FCFA / mois</div>
+            <a class="btn" href="https://www.toluna.com" target="_blank">👉 PARTICIPER</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1556741533-f6acd647d2fb?w=1200">
+        <div class="content">
+            <div class="title">ySense</div>
+            <div class="desc">Micro-tâches + sondages.</div>
+            <div class="gain">💰 10 000 à 80 000 FCFA / mois</div>
+            <a class="btn" href="https://www.ysense.com" target="_blank">👉 VISITER</a>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+<footer>
+    © 2026 AFRICA INVEST
+</footer>
+
+<script>
+function showPage(pageId){
+    let pages = document.querySelectorAll('.page');
+    pages.forEach(p => p.classList.remove('active'));
+    document.getElementById(pageId).classList.add('active');
+}
+</script>
+
+</body>
+</html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Africa Invest</title>
+
+<meta name="description" content="Africa Invest est un site qui présente les meilleures plateformes d'investissement, crypto et sondages en Afrique pour découvrir des opportunités en ligne.">
+
+</head>
